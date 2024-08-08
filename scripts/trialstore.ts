@@ -1,4 +1,4 @@
-import init, { encrypt } from "@/public/rabe/rabe_wasm";
+import init, { encrypt } from "../../public/rabe/rabe_wasm";
 import { createClient } from "@/lib/supabase";
 import { uploadToIPFS } from "@/utils/ipfs";
 import { createToken, generateTokenId } from "@/utils/smartContract";
